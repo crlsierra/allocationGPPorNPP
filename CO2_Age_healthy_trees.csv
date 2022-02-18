@@ -1,0 +1,29 @@
+species;sampling_Time;CO2_age;Sd;organ;Source
+A. rubrum;Spring;1,5;1;stem;carbone et al 2013
+A. Rubrum;late summer;;;stem;carbone et al 2013
+A. Rubrum;spring;3,4;;stem;carbone et al 2013
+A. Rubrum;late summer;7,3;;stem;carbone et al 2013
+Populus tremula;Recently excised from control trees;0,2;0,2;fine roots;Hillman et al 2021
+Populus tremula;Recently excised from control trees;0,6;0,4;Coarse roots;Hillman et al 2021
+Simarouba amara;Co2 efflux dry season;2,5;0,5;stem;Muhr et al 2013
+Simarouba amara;CO2 efflux wet season;3,3;1;stem;Muhr et al 2013
+Simarouba amara;In-stem dry season;3,3;1;stem;Muhr et al 2013
+Simarouba amara;in-stem wet season;3,5;0,5;stem;Muhr et al 2013
+Tachigali paniculata;Co2 efflux dry season;2;0,1;stem;Muhr et al 2013
+Tachigali paniculata;CO2 efflux wet season;2;0,1;stem;Muhr et al 2013
+Tachigali paniculata;In-stem dry season;4;0,5;Stem-core;Muhr et al 2013
+Tachigali paniculata;in-stem wet season;5;0;Stem-core;Muhr et al 2013
+Hymenolobium pulcherrimum;Co2 efflux dry season;4,5;0,5;stem;Muhr et al 2013
+Hymenolobium pulcherrimum;CO2 efflux wet season;4;1;stem;Muhr et al 2013
+Hymenolobium pulcherrimum;In-stem dry season;18,3333333333333;2;Stem-core;Muhr et al 2013
+Hymenolobium pulcherrimum;in-stem wet season;18;2;Stem-core;Muhr et al 2013
+Scleronema micranthum;wet and dry season out stem (control);1;1;stem;Muhr et al 2018
+Scleronema micranthum;instem contro;6;2;Stem-core;Muhr et al 2018
+Black Spruce forest;;4,5;;Coarse roots;Czimczik et al 2006
+Black Spruce forest;;3,5;;Coarse roots;Schuur and Trumbore 2006
+Black Spruce forest;late growing season;4;1;Coarse roots;carbone et al 2007
+D. microcarpa;dry season;5;2;Stem-core;Herrera et al (in prep)
+D. microcarpa;wet season ;3;2;Stem-core;Herrera et al (in prep)
+O. Leucoxylon;dry season;2,5;1,5;Stem-core;Herrera et al (in prep)
+O. Leucoxylon;wet season ;5;0,5;Stem-core;Herrera et al (in prep)
+S.guianensis;wet season ;3;0,5;Stem-core;Herrera et al (in prep)
