@@ -1,0 +1,64 @@
+\documentclass{article} 
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes,backgrounds}
+\usepackage{geometry}
+\geometry{%
+  paperheight=16cm,
+  paperwidth=11.5cm,
+  top=0.1cm,
+  bottom=0.1cm,
+  right=0.1cm,
+  left=0.1cm,
+%  layoutsize={4.25in,7in},
+%  layoutoffset={.5in,.5in},
+}
+\pagenumbering{gobble}
+
+\begin{document}
+
+\tikzstyle{pool}=[rectangle,  rounded corners, text centered, minimum height=0.8cm]
+
+(a) \\
+\begin{tikzpicture}[node distance=2cm]
+\node[pool] (atm) [text width=7cm, fill=green!30!blue!30] {Atmospheric CO$_2$};
+\node[pool] (gpp) [below of=atm] {$U=$ GPP}
+ edge[<-] (atm);
+\node[pool] (v1) [below of=gpp,xshift=-25mm, fill=teal!50, text width=2cm] {$x_1$}
+ edge[<-, label={[font=\footnotesize] $U \ b_1$}] (gpp)
+ edge[->, out=180, in=180, draw=cyan!50,  label={[font=\footnotesize, cyan!50] 160:$z_1 \ x_1$}] (atm);
+\node[pool] (v2) [below of=gpp, fill=teal!50, text width=2cm] {$\dots$}
+ edge[<-] (gpp)
+ edge[->, out=20, in=330, draw=cyan!50] (atm);
+\node[pool] (vn) [below of=gpp, xshift=25mm, fill=teal!50, text width=2cm] {$x_j$}
+ edge[<-, label={[font=\footnotesize] $U \ b_j$}] (gpp)
+ edge[->, out=0, in=0, draw=cyan!50, label={[font=\footnotesize, cyan!50] 20:$z_j \ x_j$}] (atm);
+\node[pool] (geo) [below of=gpp, yshift=-2cm, fill=gray!50, text width=7cm] {Litter and soil pools}
+ edge[<-] (v1)
+ edge[<-] (v2)
+ edge[<-] (vn)
+ edge[->, out=180, in=180, draw=gray!50] (atm);
+\end{tikzpicture}
+ 
+%\\
+\vspace{1cm}
+ 
+(b) \\
+\begin{tikzpicture}[node distance=2cm]
+\node[pool] (atm) [text width=7cm, fill=green!30!blue!30] {Atmospheric CO$_2$};
+\node[pool] (gpp) [below of=atm] {$U=$ NPP = GPP-Ra}
+ edge[<-] (atm)
+ edge[->, out=0, in=330, draw=cyan!50, label={[font=\footnotesize, cyan!50] 20:Ra}] (atm);
+\node[pool] (v1) [below of=gpp,xshift=-25mm, fill=teal!50, text width=2cm] {$x_1$}
+ edge[<-, label={[font=\footnotesize] $U \ b_1$}] (gpp);
+\node[pool] (v2) [below of=gpp, fill=teal!50, text width=2cm] {$\dots$}
+ edge[<-] (gpp);
+\node[pool] (vn) [below of=gpp, xshift=25mm, fill=teal!50, text width=2cm] {$x_j$}
+ edge[<-, label={[font=\footnotesize] $U \ b_j$}] (gpp);
+\node[pool] (geo) [below of=gpp, yshift=-2cm, fill=gray!50, text width=7cm] {Litter and soil pools}
+ edge[<-] (v1)
+ edge[<-] (v2)
+ edge[<-] (vn)
+ edge[->, out=180, in=180, draw=gray!50] (atm);
+\end{tikzpicture}
+
+\end{document}
