@@ -3,7 +3,7 @@ library(expm)
 library(RColorBrewer)
 library(ggplot2)
 
-setwd("~/SOIL-R/Manuscripts/allocationGPPorNPP/")
+setwd("~/Publications/allocationGPPorNPP/")
 
 pal=palette.colors(4, palette="Classic Tableau",alpha=0.3)
 
@@ -67,6 +67,12 @@ plot(tm,TT_G$transitTimeDensity,type="l",xlim=c(0,50),xlab="Transit time (year)"
 abline(v=TT_G$quantiles[2],lty=2)
 lines(tm,TT_N$transitTimeDensity,col=2)
 abline(v=TT_N$quantiles[2],lty=2,col=2)
+
+pdf("logTT.pdf")
+par(mar=c(4,4,0,0))
+plot(tm,TT_G$transitTimeDensity,type="l", log="y",xlab="Transit time (year)",
+     ylab="Proportion of respired C", bty="n")
+dev.off()
 
 GPP=sum(u_G)
 NPP=sum(u_N)
