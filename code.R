@@ -21,7 +21,7 @@ par(mar=c(4,4,1,1))
 boxplot(list(Roots$CO2_age, Stem_chamber$CO2_age, Stem_core$CO2_age), col=pal, frame.plot=FALSE,xlab="",ylim=c(0,20),
         ylab=expression(paste("Age of respired ", CO[2], " (yr)")),pch=20,
         names=c("Roots", "Stem-chambers", "Stem-cores"))
-text(x=c(1,2,3,4), y=20, labels=c(nrow(Coarse_roots), nrow(Fine_roots),nrow(Stem_chamber),nrow(Stem_core)))
+text(x=c(1,2,3,4), y=20, labels=c(nrow(Coarse_roots)+nrow(Fine_roots),nrow(Stem_chamber),nrow(Stem_core)))
 abline(h=1,lty=2)
 dev.off()
 
