@@ -71,7 +71,12 @@ abline(v=TT_N$quantiles[2],lty=2,col=2)
 pdf("logTT.pdf")
 par(mar=c(4,4,0,0))
 plot(tm,TT_G$transitTimeDensity,type="l", log="y",xlab="Transit time (year)",
-     ylab="Proportion of respired C", bty="n")
+     ylab="Proportion of respired C", yaxt="n", bty="n")
+aty <- axTicks(2)
+labels <- sapply(5:1,function(i)
+  as.expression(bquote(10^ .(-i)))
+)
+axis(2,at=aty,labels=labels)
 dev.off()
 
 GPP=sum(u_G)
