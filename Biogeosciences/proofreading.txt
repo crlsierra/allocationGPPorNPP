@@ -1,0 +1,28 @@
+# Answers to copy-editor
+- CE1: The change made during copy editing changed the meaning of the sentence. A correct form of this sentence is: "Together, these previous studies show that empirical work has promoted the implementation of Ra as a proportion of GPP, or based on some respiration paradigms, but they subtract Ra from GPP before carbon allocation occurs."
+- CE2: Correction is correct.
+- CE3: Correction is correct.
+- CE4: This sentence lost its meaning after copy editing. It can be fixed by replacing 'predicting' for 'predicts'.
+- CE5: Capitalization change is correct.
+
+
+# Answers to typesetter
+- TS1: Department of Biogeochemical Processes
+- TS2: Department of Ecology
+- TS3: Institute of Biology
+- TS4: No, it should remain as is to be consistent with the parallel concepts of GPP and NPP, which are not italized.
+- TS5: All vectors are in bold-italics and all matrices in bold-roman.
+- TS6: Reference is not in the reference list because it is in preparation. A preliminary citation would be: Herrera-Ramírez D., Römermann C., Hartmann H., Muhr J., Trumbore S., Maracahipes L., Brado P., and Sierra C. 2022. Nonstructural carbon age and lateral mixing in the stem wood of tropical trees. In preparation.
+- TS7: The text provided in the Acknowledgements section only contains funding information. This could be moved to the Financial Support section, in which case, the Acknowledgements section can be removed.
+- TS8: References were checked carefully.
+- TS9: Replace url for doi: https://doi.org/10.2307/1942099
+- TS10: Volume: 36, page numbers: 1039–1052
+- TS11: Replace url for doi: https://doi.org/10.1093/oxfordjournals.aob.a088273
+- TS12: Article is in 'FirstView" stage and no volume information has been provided by the publisher.
+- TS13: Report designator: NCAR/TN-503+STR, doi: http://dx.doi.org/10.5065/D6RR1W7M
+- TS14: Correct.
+- TS15: Article number: L19405
+
+# Additional edits
+Page 5, line 9: Change 'from ecosystem' to 'from an ecosystem'.
+
